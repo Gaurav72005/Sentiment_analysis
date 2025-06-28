@@ -1,58 +1,53 @@
-# 🧠 Sentiment Analysis – Customer Reviews (Data Analysis)
+# 💬 Sentiment Analysis on Customer Reviews
 
-This project focuses on **analyzing customer reviews** to understand user sentiment – Positive, Negative, or Neutral – using data visualization techniques.
+## 📊 Project Overview
+This project involves performing **sentiment analysis** on customer review data to determine whether the overall sentiment expressed in each review is **positive**, **negative**, or **neutral**. The goal is to help businesses better understand customer opinions and improve products and services based on feedback.
 
----
+## 🎯 Objectives
+- Clean and preprocess customer review data.
+- Classify sentiments into positive, negative, or neutral.
+- Visualize sentiment distribution for deeper insights.
 
-## 📌 Table of Contents
-- [Overview](#overview)
-- [Dataset Description](#dataset-description)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Data Preprocessing](#data-preprocessing)
-- [Sentiment Analysis](#sentiment-analysis)
-- [Data Visualization](#data-visualization)
-- [Insights & Results](#insights--results)
-- [How to Run](#how-to-run)
-- [License](#license)
+## 🗃️ Dataset
+The dataset includes:
+- `Rating` (numerical rating)
+- `Product ID`, `User ID`, `Timestamp` (metadata)
 
----
+**Data Source**: https://www.kaggle.com/datasets/saurav9786/amazon-product-reviews
 
-## 📝 Overview
+## 🛠️ Technologies Used
+- **Python**
+- **Pandas** – Data manipulation
+- **Matplotlib / Seaborn** – Data visualization
+- **Jupyter Notebook**
 
-This repository contains Python code for:
-- Data cleaning on dataset
-- Assigning sentiment labels (positive, negative, neutral) from Rating
-- Visualizing key patterns using `user_id`, `product_id`, `rating`, and `timestamp`, 'Sentiment'
+## 🔍 Methodology
+1. **Data Cleaning**: Removing Null values in dataset.
+2. **Labeling Sentiment**:
+   - `Positive`: review expresses satisfaction or praise.
+   - `Negative`: review expresses dissatisfaction.
+   - `Neutral`: review is neither positive nor negative.
 
----
+## 📈 Visualizations
+- Pie chart / bar chart of sentiment distribution.
+- Top 10 Most Active User/ Most Reviewed Product.
 
-## 📂 Dataset Description
+## 📌 Insights
+- Most customers have a [positive/negative/neutral] sentiment.
 
-The dataset used includes the following columns:
+## 🔄 Future Enhancements
+- Integrate with real-time review systems (e.g., scraping live data).
+- Train custom deep learning models for better accuracy.
+- Multilingual sentiment analysis support.
 
-| Column       | Description                          |
-|--------------|--------------------------------------|
-| `user_id`    | Unique identifier for the reviewer   |
-| `product_id` | Unique product code                  |
-| `rating`     | Numerical rating (e.g., 1 to 5 stars)|
-| `timestamp`  | Time of the review                   |
-| `sentiment`  | Sentiment label (Positive/Negative/Neutral) |
+## 🚀 How to Run
+1. Clone the repository.
+2. Install dependencies from `requirements.txt`.
+3. Open the Jupyter notebook or run the Python script.
+4. Upload your review dataset and run the analysis.
 
----
-
-## 🛠 Technologies Used
-
-- **Python** for scripting
-- **Pandas** for data handling
-- **Seaborn & Matplotlib** for data visualization
-- **Jupyter Notebook** for analysis
-
----
-
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/your-username/sentiment-analysis-data-analysis.git
-cd sentiment-analysis-data-analysis
-pip install -r requirements.txt
+## 🙋‍♂️ Author
+**Gaurav Kumar**  
+Connect with me on [LinkedIn]
+https://www.linkedin.com/in/g%E1%B4%80%E1%B4%9C%CA%80%E1%B4%80%E1%B4%A0-k%E1%B4%9C%E1%B4%8D%E1%B4%80%CA%80-aa8506368utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+Email: www.gauravkashyap42@gmail.com
